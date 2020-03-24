@@ -1,0 +1,107 @@
+/**
+ * 文件名称  global.css
+ * 创建者    helibin
+ * 创建日期  2015/11/08
+ * 修改信息  helibin  2016/06/14 修改导航登录
+ * 文件描述  公共样式，各样式可全局调用，每个页面必引用
+ * 版本      v1.0.2
+ * 版权声明  暂无
+ */
+
+html, body {
+    margin: 0;
+    padding: 0
+}
+.hide {
+    display: none!important
+}
+.show {
+    display: block!important
+}
+#loading {
+    position: absolute;
+    display: none;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 100vh;
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: bold
+}
+#msg {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: block;
+    width: 100vw;
+    line-height: 35px;
+    background-color: rgba(140, 218, 129, 0.9);
+    text-align: center;
+    color: rgba(17, 39, 14, 0.77);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0
+}
+[role="button"] {
+    cursor: pointer
+}
+.vertical-center {
+    /* 子元素垂直居中 */
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    /* IE 11+,Firefox 22+,Chrome 29+,Opera 12.1*/
+}
+.center-vertical {
+    /* 自身垂直居中 */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border: solid 1px #808080;
+    /* IE 9+*/
+}
+
+.text-left {
+    text-align: left
+}
+.text-center {
+    text-align: center
+}
+.text-right {
+    text-align: right
+}
+.float-left{
+  float: left
+}
+.float-right{
+  float: right
+}
+.bg-white {
+    background-color: #fff
+}
+.bg-black {
+    background-color: #000
+}
+.bg-gray {
+    background-color: #f3f3f3
+}
+
+.no-padding {
+  padding: 0!important
+}
+.no-margin {
+  margin: 0!important
+}

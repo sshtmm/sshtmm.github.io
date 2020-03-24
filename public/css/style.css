@@ -1,0 +1,43 @@
+.logo {
+    height: 80%
+}
+
+.detail-h2 {
+    text-align: center;
+    font-size: 150%;
+    margin: 40px 0;
+}
+
+.detail-h3 {
+    color: #1f8dd6;
+}
+
+.hope {
+    background: #0bb59b;
+    padding: 50px 0;
+}
+
+.index-banner {
+    background-image: url('http://via.placeholder.com/2560x500?text=loading...');
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    max-width: 100%;
+}
+
+.banner-img {
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .hide-in-mobile {
+        display: none;
+    }
+}
+
+.am-footer .am-footer-miscs {
+    color: #000;
+}
